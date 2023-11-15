@@ -1,1 +1,3 @@
 Welcome to the Pure HTML Semantic Webpage project! This project is dedicated to showcasing the power and elegance of HTML in creating well-structured and semantically meaningful web pages. In this repository, you will find a collection of HTML files, each demonstrating the use of semantic HTML elements to create clear and accessible content.
+
+![Alt text](/html_advanced/images/logo.png)
