@@ -1,0 +1,1 @@
+Welcome to HTML and CSS Semantic Webpage project! This project is dedicated to showcasing the power and elegance of HTML and CSS in creating well-structured and semantically meaningful web pages. In this repository, you will find a collection of HTML and CSS files.
