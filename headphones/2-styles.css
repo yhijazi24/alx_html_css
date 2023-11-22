@@ -230,7 +230,7 @@ p {
     }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 830px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
     .header {
         height: 800px;
     }
@@ -486,7 +486,7 @@ p {
     }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 830px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
     .header {
         height: 800px;
     }
@@ -583,7 +583,7 @@ p {
 
 }
 
-@media only screen and (min-width: 481px) and (max-width: 830px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
     .section-header h1 {
         font-size: 32px;
         text-align: center;
@@ -719,7 +719,7 @@ p {
     }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 830px) {
+@media only screen and (min-width: 480px) and (max-width: 768px) {
     .or-section {
         height: 876px;
         min-width: 768px;
