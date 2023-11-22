@@ -10,6 +10,35 @@
     font-display: block;
 }
 
+@keyframes continuousAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Add this for hover animation */
+@keyframes hoverAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
 [class^="holberton_school-icon-"],
 [class*=" holberton_school-icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
@@ -272,6 +301,23 @@ p {
 
 
 /* WHAT WE DO SECTION */
+
+.card-services:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Animation for Our Results Section */
+.section-results li:hover .pentagone img {
+    transform: rotate(360deg);
+    transition: transform 0.5s ease-in-out;
+}
+
+.section-results li:hover .section-proof {
+    transform: translateY(-20px);
+    opacity: 0.8;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
 
 .section-header p {
     color: black;
@@ -778,26 +824,4 @@ footer {
 .holberton_school-icon-ic_twitter:before {
     content: "\e90f";
     color: white;
-}
-
-@media only screen and (max-width: 480px) {
-    .logo img {
-        position: relative;
-        top: -36px;
-        left: 123px;
-    }
-
-    .socials ul {
-        display: block;
-        width: 100%;
-        position: absolute;
-        top: 38px;
-        left: 130px;
-        z-index: 2;
-    }
-
-    .socials ul li a {
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
 }
