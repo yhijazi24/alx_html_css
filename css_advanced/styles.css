@@ -309,6 +309,38 @@ body {
     max-width: 255px;
 }
 
+.img2 {
+    position: absolute;
+    left: 145px;
+    top: 160px;
+    width: 64px;
+    height: 64px;
+}
+
+.img21 {
+    position: absolute;
+    left: 420px;
+    top: 160px;
+    width: 64px;
+    height: 64px;
+}
+
+.img22 {
+    position: absolute;
+    left: 710px;
+    top: 160px;
+    width: 64px;
+    height: 64px;
+}
+
+.img23 {
+    position: absolute;
+    left: 996px;
+    top: 160px;
+    width: 64px;
+    height: 64px;
+}
+
 .review h2 {
     font-family: font2;
     font-size: 16px;
@@ -412,7 +444,6 @@ body {
 }
 
 .member-ds {
-    /* display:flex; */
     text-align: center;
     width: 257px;
     height: 153px;
@@ -459,4 +490,123 @@ body {
     font-family: font1;
     position: relative;
     top: 206px;
+}
+
+/* FAQ Section */
+
+
+.faq {
+    width: 1519.5px;
+    height: 841px;
+    position: relative;
+    top: 624px;
+}
+
+.faq-section {
+    position: relative;
+    top: 67px;
+    left: 249px;
+    max-width: 920px;
+    height: 707px;
+}
+
+.faq-section h1 {
+    text-align: center;
+    font-family: font1;
+    font-size: 60px;
+    font-weight: 300;
+    color: #071629;
+    margin-bottom: 74px;
+}
+
+.faq-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 350px;
+    height: 242px;
+    margin-bottom: 74px;
+}
+
+.question h2 {
+    font-family: font;
+    font-size: 16px;
+    font-weight: 700;
+    color: #071629;
+}
+
+.question p {
+    font-family: font1;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #07162980;
+    width: 350px;
+    height: 192px;
+}
+
+/* Footer */
+footer {
+    background-color: #071629;
+    height: 249px;
+    width: 1519.5px;
+    position: relative;
+    top: 700px;
+}
+
+.fp p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+    opacity: 0.7;
+    text-align: center;
+    position: relative;
+    top: 160px;
+}
+
+.logo1 img {
+    width: 161px;
+    height: 32;
+    position: relative;
+    left: 199.61px;
+}
+
+.fh1 {
+    top: 91.76px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.socials ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    position: relative;
+    left: 1070;
+}
+
+.socials ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.socials ul li a {
+    padding: 10px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
 }
