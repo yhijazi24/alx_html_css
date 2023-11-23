@@ -120,6 +120,8 @@ body {
     font-weight: 700;
     text-align: center;
     line-height: 20.11px;
+    position: relative;
+    top: 10px;
 }
 
 .hero-header button {
@@ -134,7 +136,7 @@ body {
     font-weight: 600;
     font-family: font1;
     position: relative;
-    top: 30px
+    top: 39px;
 }
 
 .button1 {
@@ -199,3 +201,68 @@ body {
     font-weight: 400;
     text-align: center;
 }
+
+/* QUOTES SECTION */
+
+.testi-section {
+    background-color: #C271FF;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 392px;
+    width: 1520px;
+    position: relative;
+    top: 601px;
+}
+
+.quote-section {
+    max-width: 1440px;
+    max-height: 1093px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 108px;
+}
+
+.quote-section img {
+    border-radius: 50%;
+    margin-right: 53px;
+    max-height: 160px;
+    max-width: 160px;
+}
+
+.quote {
+    max-width: 730px;
+    max-height: 158px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote blockquote {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: font1;
+    line-height: 33.6px;
+    margin-bottom: 30px;
+}
+
+.quote p {
+    font-size: 22px;
+}
+
+.p1 {
+    font-weight: 700;
+    font-family: font2;
+    margin-bottom: 5px;
+}
+
+.p2 {
+    font-family: font1;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 33.6px;
+}
+
+/* 
