@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid green;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  border: 2px solid green;
+}
+
+article {
+  flex: 2;
+  overflow-y: auto;
+  border: 2px solid green;
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+  border: 2px solid black;
+}
+
+
+/* my personel code */ 
+header img {
+  width: 50px; 
+  height: auto; 
+  position: absolute;
+  top: 10px; 
+  left: 10px; 
+}
+body {
+  
+  margin: 0; 
+  padding: 0; 
+  background-color: orange;
+}
+
